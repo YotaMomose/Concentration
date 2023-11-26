@@ -14,6 +14,7 @@
 		185021C92B1181AD00FDD819 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185021C82B1181AD00FDD819 /* ConcentrationTests.swift */; };
 		185021D32B1181AD00FDD819 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185021D22B1181AD00FDD819 /* ConcentrationUITests.swift */; };
 		185021D52B1181AD00FDD819 /* ConcentrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185021D42B1181AD00FDD819 /* ConcentrationUITestsLaunchTests.swift */; };
+		18F268482B12CCA000F6F900 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F268472B12CC9F00F6F900 /* PlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		185021CE2B1181AD00FDD819 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		185021D22B1181AD00FDD819 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		185021D42B1181AD00FDD819 /* ConcentrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18F268472B12CC9F00F6F900 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				185021B72B1181A500FDD819 /* ConcentrationApp.swift */,
 				185021B92B1181A500FDD819 /* ContentView.swift */,
+				18F268472B12CC9F00F6F900 /* PlayView.swift */,
 				185021BB2B1181AC00FDD819 /* Assets.xcassets */,
 				185021BD2B1181AC00FDD819 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F268482B12CCA000F6F900 /* PlayView.swift in Sources */,
 				185021BA2B1181A500FDD819 /* ContentView.swift in Sources */,
 				185021B82B1181A500FDD819 /* ConcentrationApp.swift in Sources */,
 			);
